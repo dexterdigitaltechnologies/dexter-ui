@@ -35,7 +35,7 @@ const SeoAgency = () => {
       <div className="hero-banner-six position-relative pt-180 md-pt-150">
         <div className="container">
           <div className="row">
-            <div className="col-lg-9 m-auto text-center" data-aos="fade-up">
+            <div className="col-lg-10 m-auto text-center" data-aos="fade-up">
               <Hero />
               {/* /.subscribe-form */}
             </div>
@@ -89,6 +89,40 @@ const SeoAgency = () => {
         />
       </div>
       {/* /.hero-banner-six */}
+     {/* Who we are Section */}
+     <div className="pricing-section-three position-relative mt-225 mb-225 lg-mt-140 lg-mb-120">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 m-auto">
+              <div
+                className="title-style-one text-center mb-70 lg-mb-40"
+                data-aos="fade-up"
+              >
+                <h2 className="main-title fw-normal tx-dark m0">
+                  Who <span>We</span> Are
+                </h2>
+                <p className="text-lg mb-75 pt-60 lg-mb-40 lg-pt-40">
+                  Dexter Digital Technologies is an innovative software
+                  development company dedicated to delivering cutting edge
+                  technological solutions to various companies worldwide. Over
+                  the past few years, We have established ourselves as a
+                  reliable partner for businesses seeking innovative software
+                  solutions to solve their business challenges. Our services
+                  include custom software development, digital marketing,
+                  consultancy services and technical architecture design
+                  services.
+                </p>
+              </div>
+              {/* /.title-style-one */}
+            </div>
+          </div>
+          {/* End .row */}
+          {/* <Pricing /> */}
+        </div>
+        {/* End .container */}
+        <div className="shapes shape-one rounded-circle" />
+        <div className="shapes shape-two rounded-circle" />
+      </div>
 
       {/* 
 			=============================================
@@ -180,36 +214,7 @@ const SeoAgency = () => {
       </div>
       {/* /.fancy-feature-twentyOne */}
 
-      {/*
-			=====================================================
-			Pricing Section Three
-			=====================================================
-			*/}
-      <div className="pricing-section-three position-relative mt-225 mb-225 lg-mt-140 lg-mb-120">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-8 m-auto">
-              <div
-                className="title-style-one text-center mb-70 lg-mb-40"
-                data-aos="fade-up"
-              >
-                <div className="sc-title text-uppercase">OUR PRICING </div>
-                <h2 className="main-title fw-normal tx-dark m0">
-                  No <span>hidden</span> charge, Choose your plan.
-                </h2>
-              </div>
-              {/* /.title-style-one */}
-            </div>
-          </div>
-          {/* End .row */}
-          <Pricing />
-        </div>
-        {/* End .container */}
-        <div className="shapes shape-one rounded-circle" />
-        <div className="shapes shape-two rounded-circle" />
-      </div>
-      {/* /.pricing-section-three */}
-
+ 
       {/* 
 			=============================================
 				Feature Section Twenty Two
@@ -224,28 +229,7 @@ const SeoAgency = () => {
         </div>
         {/* /.fancy-short-banner-eight */}
 
-        {/* ^^^^^^^^^^^^^^^^^^^ Feedback Section Five ^^^^^^^^^^^^^^^^^^^^^^^ */}
-        <div className="feedback-section-five pt-225 lg-pt-130">
-          <div className="container">
-            <div className="position-relative">
-              <div className="row">
-                <div className="col-lg-5 col-md-6 " data-aos="fade-right">
-                  <div className="title-style-one text-center text-md-start mb-100 lg-mb-50">
-                    <h2 className="main-title fw-normal tx-dark m0">
-                      You’r gonna <span>love</span> us forever.
-                    </h2>
-                  </div>
-                  {/* /.title-style-one */}
-                </div>
-              </div>
-              {/* /.row */}
-              <Testimonial />
-            </div>
-          </div>
-          {/* /.container */}
-        </div>
-        {/* /.feedback-section-five */}
-
+    
         <div className="shapes shape-three rounded-circle" />
         <div className="shapes shape-four rounded-circle" />
         <div className="shapes shape-five rounded-circle" />
@@ -261,79 +245,22 @@ const SeoAgency = () => {
           className="lazy-img shapes shape-eight"
         />
       </div>
-      {/* /.fancy-feature-twentyTwo */}
 
-      {/*
-			=====================================================
-				Blog Section Three
-			=====================================================
-			*/}
-      <div className="blog-section-three mt-225 lg-mt-140">
-        <div className="container">
-          <div className="row align-items-end">
-            <div className="col-lg-5 col-md-6 col-sm-7">
-              <div className="title-style-one text-center text-sm-start xs-mb-20 wow fadeInLeft">
-                <h2 className="main-title fw-normal tx-dark m0">
-                  <span>Company</span> inside News.
-                </h2>
-              </div>
-              {/* /.title-style-one */}
-            </div>
-            <div className="col-lg-5 col-md-6 col-sm-5 ms-auto text-center text-sm-end">
-              <Link
-                href="/blog/blog-v2"
-                className="btn-thirteen fw-500 tran3s mb-20 wow fadeInRight"
-              >
-                Go to Blog
-              </Link>
-            </div>
-          </div>
-          {/* /.row */}
-
-          <div className="row gx-xxl-5 pt-60 lg-pt-10">
-            <Blog />
-          </div>
-          {/* /.row */}
-        </div>
-      </div>
-      {/* /.blog-section-three */}
-
-      {/*
-			=====================================================
-				Fancy Short Banner Three
-			=====================================================
-			*/}
-      <div className="fancy-short-banner-three bg position-relative pt-130 pb-110 mt-225 mb-10 lg-mt-140 lg-pt-80 lg-pb-50">
-        <CallToActions />
-        <div className="shapes shape-one rounded-circle" />
-        <div className="shapes shape-two rounded-circle" />
-        <div className="shapes shape-three rounded-circle" />
-        <img
-          src="/images/assets/ils_03.svg"
-          alt="illustration"
-          className="lazy-img shapes shape-four"
-        />
-        <img
-          src="/images/assets/ils_04.svg"
-          alt="illustration"
-          className="lazy-img shapes shape-five"
-        />
-      </div>
-      {/* /.fancy-short-banner-three */}
-
+    
+    
       {/*
 			=====================================================
 				Footer
 			=====================================================
 			*/}
-      <div className="footer-style-six theme-basic-footer position-relative">
+         <div className="footer-style-six theme-basic-footer position-relative">
         <div className="container">
           <div className="inner-wrapper">
             <div className="row justify-content-between">
               <div className="col-lg-2 footer-intro mb-40">
                 <div className="logo">
                   <Link href="/">
-                    <img src="/images/logo/logo_01.png" alt="" width={95} />
+                    <img src="/images/dexter/logo.png" alt="" width={250} />
                   </Link>
                 </div>
               </div>
@@ -342,22 +269,22 @@ const SeoAgency = () => {
               <Footer />
 
               <div className="col-md-3 col-sm-6 mb-30">
-                <h5 className="footer-title tx-dark fw-500">Our Address</h5>
+                <h5 className="footer-title tx-dark fw-500">Address</h5>
                 <p className="fs-17">
-                  2190 Lojiho Terrace, Mirpur, Equal Licensed in 50 states.
+                  2 Fluture Court, Tarneit, Victoria 3029 Australia
                 </p>
                 <a
                   href="mailto:januinc@company.com"
                   className="email tran3s fs-17"
                 >
-                  januinc@company.com
+                  info@dexterinc.com
                 </a>
                 <br />
                 <a
                   href="tel:+7576994478"
                   className="mobile tran3s fs-20 mt-20 mb-30"
                 >
-                  +757 699-4478
+                  1300 864 393
                 </a>
                 <Social />
               </div>
@@ -368,12 +295,8 @@ const SeoAgency = () => {
             <div className="bottom-footer">
               <p className="copyright text-center m0">
                 Copyright © {new Date().getFullYear()} {"  "}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://themeforest.net/user/ib-themes"
-                >
-                  ib-themes
+                <a target="_blank" rel="noopener noreferrer" href="#">
+                 Dexter Digital Technologies Pty. Ltd.
                 </a>
               </p>
             </div>

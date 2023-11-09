@@ -3,11 +3,9 @@ import Form from "./Form";
 const Contact = () => {
   const contentData = {
     imgSrc: "/images/icon/icon_60.svg",
-    title: "Let’s talk with experience advisors.",
+    title: "Join Dexter Digital Technologies on your journey to digital success.",
     subtitle:
-      "eiusmod tempor incididunt. Ut enim mim veniam, quis nostrud elit.",
-    urgent: "Urgent?",
-    phone: "+227 300-3676",
+      "Contact us today to explore how our expertise can transform your business in the digital age. Your vision is our mission, and we are committed to helping you achieve it.",
   };
 
   return (
@@ -20,13 +18,13 @@ const Contact = () => {
           </h2>
         </div>
         <p className="text-lg tx-dark mb-55 lg-mb-30">{contentData.subtitle}</p>
-        <div className="fw-500 fs-18 ur-text mb-5">{contentData.urgent}</div>
-        <div className="call-btn">
+        <div className="fw-500 fs-16 ur-text mb-5">{contentData.urgent}</div>
+        {/* <div className="call-btn">
           <span className="fs-18 tx-dark d-inline-block">Call us</span>
           <a href={"tel:" + contentData.phone} className="tx-dark tran3s">
             {contentData.phone}
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* End .col-lg-5 */}

@@ -1,55 +1,84 @@
 import Link from "next/link";
 
-const Services = () => {
-  const servicesData = [
+const Services2 = () => {
+  const services = [
     {
       icon: "/images/icon/icon_09.svg",
-      title: "Quality Design",
-      description: "Design from Worldclass UI/UX designer.",
-      delay: 0,
+      title: "Software design & development",
+      delay: 100,
     },
     {
-      icon: "/images/icon/icon_51.svg",
-      title: "Marketing",
-      description: "Provide SEO & SMM Services.",
+      icon: "/images/icon/icon_52.svg",
+      title: "ERP implementation",
       delay: 200,
     },
     {
-      icon: "/images/icon/icon_11.svg",
-      title: "Development",
-      description: "Mobile App & Website Development.",
+      icon: "/images/icon/icon_53.svg",
+      title: "Software Consulting",
+      delay: 100,
+    },
+    {
+      icon: "/images/icon/icon_54.svg",
+      title: "UI/UX Design",
+      delay: 200,
+    },
+    {
+      icon: "/images/icon/icon_55.svg",
+      title: "SEO & Social Marketing",
       delay: 300,
     },
+  
+
   ];
+  
+
+
+
+
 
   return (
     <>
-      {servicesData.map((service, index) => (
+      <div className="col-lg-5 me-auto mt-40 md-mt-10" data-aos="fade-up">
+        <div className="title-style-one">
+          <h2 className="main-title fw-normal tx-dark m0">
+            Our <br /> <span>Services</span> 
+          </h2>
+        </div>
+        {/* /.title-style-one */}
+      </div>
+      {/* End .col-lg-5 */}
+
+      {services.map((service, index) => (
         <div
           key={index}
-          className={`col-lg-4 col-md-6 d-flex mt-40`}
-          data-aos-delay={service.delay}
+          className={`col-lg-3 col-sm-6 d-flex mt-40`}
           data-aos="fade-up"
+          data-aos-delay={service.delay}
         >
           <div className="card-style-ten d-flex flex-column bg-white pe-3 ps-3 pe-xl-5 ps-xl-5 pt-60 pb-45 lg-pt-40 lg-pb-30">
             <div className="icon d-flex align-items-end">
-              <img src={service.icon} alt="" className="lazy-img" />
+              <img src={service.icon} alt="icon" className="lazy-img" />
             </div>
-            <span className="d-block fs-18 opacity-75 mt-35 mb-10">
-              {service.title}
-            </span>
-            <h4 className="fw-500 mb-35">{service.description}</h4>
+            <h4 className="fw-500 mt-20 mb-50">{service.title}</h4>
             <Link
               href="/pages-menu/service-details"
               className="read-btn mt-auto tran3s"
             >
-              <img src="/images/icon/icon_12.svg" alt="" className="lazy-img" />
+              <img
+                src="/images/icon/icon_12.svg"
+                alt="icon"
+                className="lazy-img"
+              />
             </Link>
           </div>
+          {/* /.card-style-ten */}
         </div>
       ))}
+
+   
+      {/* End .col-xxl-2 */}
     </>
   );
 };
 
-export default Services;
+export default Services2;

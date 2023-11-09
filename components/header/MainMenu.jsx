@@ -4,6 +4,7 @@ import {
   pagesItems,
   portfolioItems,
   blogItems,
+  services
 } from "../../data/menu";
 
 import { useRouter } from "next/router";
@@ -90,6 +91,30 @@ const MainMenu = () => {
           </li>
           {/* End li (home mega menu) */}
 
+          <li className="nav-item  dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul className="dropdown-menu" style={{minWidth:"270px"}}>
+              {services.map((item, index) => (
+                <li className="dropdown-submenu dropdown" key={index}>
+                  <Link href={item.link} className="dropdown-item">
+                    <span>{item.name}</span>
+                  </Link>
+                 
+                </li>
+              ))}
+
+             
+            </ul>
+          </li>
           <li className="nav-item  dropdown">
             <a
               // className="nav-link dropdown-toggle"
