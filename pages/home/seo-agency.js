@@ -35,12 +35,12 @@ const SeoAgency = () => {
           {/* End .row */}
 
           <div
-            className="illustration-holder text-center mt-10"
+            className="illustration-holder text-center mt-45"
             data-aos="fade-up"
           >
             <div className="d-lg-block">
               <img
-                src="/images/assets/sales.svg"
+                src="/images/assets/ils_02.svg"
                 alt="shape"
                 className="lazy-img m-auto"
               />
@@ -82,7 +82,7 @@ const SeoAgency = () => {
       </div>
       {/* /.hero-banner-six */}
      {/* Who we are Section */}
-     <div className="pricing-section-three position-relative mt-100 mb-160 lg-mt-140 lg-mb-120">
+     <div className="pricing-section-three position-relative mt-100 mb-150 lg-mt-140 lg-mb-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 m-auto">
