@@ -34,7 +34,7 @@ const Services2 = () => {
       <div className="col-lg-5 me-auto mt-40 md-mt-10" data-aos="fade-up">
         <div className="title-style-one">
           <h2 className="main-title fw-normal tx-dark m0">
-            Let’s <br /> <span>Discover</span> all our Services.
+            Lets <br /> <span>Discover</span> all our Services.
           </h2>
         </div>
         {/* /.title-style-one */}
