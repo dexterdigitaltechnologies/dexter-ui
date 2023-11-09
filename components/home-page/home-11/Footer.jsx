@@ -6,34 +6,26 @@ const Footer = () => {
       title: "Links",
       links: [
         { label: "Home", url: "/" },
-        { label: "Pricing", url: "/pages-menu/pricing" },
         { label: "About us", url: "/pages-menu/about-us-v1" },
-        { label: "Service", url: "/pages-menu/service-v1" },
-        { label: "Blog", url: "/blog/blog-v1" },
+        { label: "Privacy Policy", url: "/privacy-policy" },
+        { label: "Contact", url: "/contact" },
       ],
       className: "col-lg-2 col-md-3 col-sm-6 mb-30",
     },
     {
-      title: "Support",
+      title: "Services",
       links: [
-        { label: "FAQ", url: "/pages-menu/faq" },
-        { label: "Blog", url: "/blog/blog-v1" },
-        { label: "Contact Us", url: "/contact" },
-        { label: "Support", url: "/contact" },
+        { label: "Software Development", url: "../services/software-development" },
+        { label: "Digital Marketing", url: "../services/digital-marketing" },
+        { label: "Web Design & Development", url: "../services/web-design-development" },
+        { label: "UI/UX Design  ", url: "../services/ui-ux-design" },
+        { label: "Consulting and Strategy", url: "../services/consulting-strategy" },
+        { label: " ERP Implementation  ", url: "../services/erp-implimentation" },
+        { label: "Mobile App Development", url: "../services/mobile-app-developemnt" },
       ],
-      className: "col-lg-2 col-md-3 col-sm-6 mb-30",
+      className: "col-lg-4 col-md-4 col-sm-6 mb-30",
     },
-    {
-      title: "Products",
-      links: [
-        { label: "Take the tour", url: "/pages-menu/faq" },
-        { label: "Live chat", url: "/pages-menu/faq" },
-        { label: "Self-service", url: "/pages-menu/faq" },
-        { label: "Social", url: "/pages-menu/faq" },
-        { label: "Jano Reviews", url: "/pages-menu/faq" },
-      ],
-      className: "col-lg-2 col-md-3 col-sm-6 mb-30",
-    },
+  
   ];
 
   return (

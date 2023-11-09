@@ -11,7 +11,7 @@ const BlockContact = () => {
     {
       icon: "/images/icon/tele.png",
       title: "Contact Info",
-      content: "Open a chat or give us call at",
+      content: "Call Us",
       link: "tel:1300864393",
       delay: "200",
     },

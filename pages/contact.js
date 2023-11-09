@@ -1,7 +1,6 @@
 import Seo from "../components/common/Seo";
 import BlockContact from "../components/contact/BlockContact";
 import ContactForm from "../components/contact/ContactForm";
-import Map from "../components/contact/Map";
 import DefaultFooter from "../components/footer/DefaultFooter";
 import DefaulHeader from "../components/header/DefaulHeader";
 
@@ -29,12 +28,13 @@ const contact = () => {
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
                   Contact info
                 </div>
-                <h2 className="main-title fw-500 tx-dark">Contact Us</h2>
+                <h2 className="main-title fw-500 tx-dark">Get in Touch.</h2>
               </div>
             </div>
           </div>
         </div>
         {/* /.container */}
+      
       </div>
 
       {/* 
@@ -64,7 +64,7 @@ const contact = () => {
           </div>
         </div>
         {/* End .container */}
-      
+       
       </div>
 
       {/* 

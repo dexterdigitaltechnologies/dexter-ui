@@ -7,12 +7,10 @@ const Footer = () => {
       title: "Links",
       column: "col-lg-2 col-md-3 col-sm-6 mb-30",
       items: [
-        { label: "Home", href: "/" },
-        { label: "Pricing", href: "/pricing" },
-        { label: "About us", href: "/about-v1" },
-        { label: "Careers", href: "#" },
-        { label: "Features", href: "#" },
-        { label: "Blog", href: "/blog-v2." },
+        { label: "Home", url: "/" },
+        { label: "About us", url: "/pages-menu/about-us-v1" },
+        { label: "Privacy Policy", url: "/privacy-policy" },
+        { label: "Contact", url: "/contact" },
       ],
     },
     {
@@ -20,28 +18,30 @@ const Footer = () => {
       title: "Services",
       column: "col-lg-3 col-md-4 col-sm-6 mb-30",
       items: [
-        { label: "Health Insurance Plans", href: "/service-details" },
-        { label: "Car Insurance", href: "/service-details" },
-        { label: "Investment", href: "/service-details" },
-        { label: "Mediclaim Policy", href: "/service-details" },
-        { label: "Others", href: "/service-details" },
-        { label: "Health Insurance", href: "/service-details" },
+        { label: "Software Development", url: "../services/software-development" },
+        { label: "Digital Marketing", url: "../services/digital-marketing" },
+        { label: "Web Design & Development", url: "../services/web-design-development" },
+        { label: "UI/UX Design  ", url: "../services/ui-ux-design" },
+        { label: "Consulting and Strategy", url: "../services/consulting-strategy" },
+        { label: " ERP Implementation  ", url: "../services/erp-implimentation" },
+        { label: "Mobile App Development", url: "../services/mobile-app-developemnt" },
       ],
     },
   ];
 
+
   const socialIcons = [
     {
       iconClass: "fab fa-facebook-f",
-      link: "#",
+      link: "https://www.facebook.com/KamalMalikFinance",
     },
-    {
-      iconClass: "fab fa-twitter",
-      link: "#",
-    },
+    // {
+    //   iconClass: "fab fa-twitter",
+    //   link: "#",
+    // },
     {
       iconClass: "fab fa-linkedin-in",
-      link: "#",
+      link: "https://www.linkedin.com/in/kamal-malik-10728022/",
     },
   ];
 
@@ -49,32 +49,39 @@ const Footer = () => {
     <>
       {links.map((link) => (
         <div className={link.column} key={link.id}>
-          <h5 className="footer-title text-white fw-500">{link.title}</h5>
+          <h5 className="footer-title txt-dark fw-500">{link.title}</h5>
           <ul className="footer-nav-link style-none">
             {link.items.map((item, i) => (
               <li key={i}>
-                <a href={item.href}>{item.label}</a>
+                <a href={item.url}>{item.label}</a>
+              
               </li>
             ))}
+            {/* <li> <a href="/privacy.pdf" download="privacy policy">Privacy Policy</a></li> */}
           </ul>
         </div>
       ))}
 
       <div className="col-xl-3 col-lg-4 col-md-5 mb-30">
-        <h5 className="footer-title text-white fw-500">Address</h5>
-        <p className="text-white opacity-75 mb-35">
-          2190 Zinai terrace, Lake view <br />
-          house state, 10 no road.
+        <h5 className="footer-title txt-dark fw-500">Address</h5>
+        <p className="text-dark opacity-75 mb-20">
+          2 Fluture Court, Tarneit VIC 3029
         </p>
-        <ul className="d-flex social-icon style-none">
-          {socialIcons.map((icon, index) => (
-            <li key={index}>
-              <a href={icon.link} target="_blank" rel="noopener noreferrer">
-                <i className={icon.iconClass} />
-              </a>
-            </li>
-          ))}
-        </ul>
+        <h5 className="footer-title txt-dark fw-500">Contact Info</h5>
+        <p className="text-dark opacity-75 mb-20">
+          <a className="telnumber" href="tel: 1300864393">
+            {" "}
+            1300 864393
+          </a>
+        </p>
+        <h5 className="footer-title txt-dark fw-500">Email</h5>
+        <p className="text-dark opacity-75 mb-20">
+          <a className="mailid" href="mailto:info@unifyfinance.com.au">
+            info@unifyfinance.com.au
+          </a>
+        </p>
+
+      
       </div>
     </>
   );

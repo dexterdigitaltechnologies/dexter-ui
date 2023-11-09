@@ -11,7 +11,6 @@ import Testimonial from "../../components/home-page/home-11/Testimonial";
 import Pricing from "../../components/pricing/Pricing";
 import Blog from "../../components/home-page/home-11/Blog";
 import CallToActions from "../../components/home-page/home-11/CallToActions";
-import Social from "../../components/home-page/home-11/Social";
 import Footer from "../../components/home-page/home-11/Footer";
 import Servicesnew from "../../components/home-page/home-11/servicenew"
 const SeoAgency = () => {
@@ -260,7 +259,7 @@ const SeoAgency = () => {
                 >
                   1300 864 393
                 </a>
-                <Social />
+               
               </div>
               {/* End .col-md-3 */}
             </div>
