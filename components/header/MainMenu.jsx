@@ -106,21 +106,18 @@ const MainMenu = () => {
                  
                 </li>
               ))}
-
-             
             </ul>
           </li>
           <li className="nav-item  dropdown">
-            <a
+            <Link
               className="nav-link"
               href="/about"
               role="button"
-             
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
               About Us
-            </a>
+            </Link>
           </li>   
 
 
