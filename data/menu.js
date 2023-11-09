@@ -6,7 +6,7 @@ export const services = [
   { name: "UI/UX Design  ", link: "../services/ui-ux-design" },
   { name: "Consulting and Strategy", link: "../services/consulting-strategy" },
   { name: " ERP Implementation  ", link: "../services/erp-implimentation" },
-  { name: "Mobile App Development", link: "../services/mobile-app-developemnt" },
+  { name: "Mobile App Development", link: "../services/mobile-app-development" },
 ];
 
 
