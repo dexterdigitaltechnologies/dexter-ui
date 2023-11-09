@@ -21,7 +21,7 @@ const CallToAction = () => {
               {/* /.title-style-ten */}
             
               <p className="fs-18 mt-20 mb-35 lg-mb-30 lg-mt-20">
-              Your website is often the first impression potential customers have of your brand. At Dexter Digital Technologies, we specialize in designing and developing captivating websites that not only leave a lasting impact but also drive conversions. Whether you need a new website, a redesign, or e-commerce solutions, we've got you covered.
+              Your website is often the first impression potential customers have of your brand. At Dexter Digital Technologies, we specialize in designing and developing captivating websites that not only leave a lasting impact but also drive conversions. Whether you need a new website, a redesign, or e-commerce solutions, we&apos;ve got you covered.
               </p>
             
             </div>

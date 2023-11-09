@@ -21,7 +21,7 @@ const CallToAction = () => {
               {/* /.title-style-ten */}
             
               <p className="fs-18 mt-20 mb-35 lg-mb-30 lg-mt-20">
-              Streamline your business operations, enhance efficiency, and gain real-time insights into your organization with Dexter Digital Technologies' ERP (Enterprise Resource Planning) Implementation services. Our ERP experts are here to guide you through the process, ensuring a smooth and successful implementation tailored to your unique business needs.
+              Streamline your business operations, enhance efficiency, and gain real-time insights into your organization with Dexter Digital Technologies&apos; ERP (Enterprise Resource Planning) Implementation services. Our ERP experts are here to guide you through the process, ensuring a smooth and successful implementation tailored to your unique business needs.
               </p>
             
             </div>

@@ -12,7 +12,7 @@ const CallToActions = () => {
         <div className="col-xxl-10 col-lg-10 col-md-10 m-auto text-center">
           <div className="title-style-one ">
             <h3 style={{fontStyle:"italic"}} className="main-text fw-500 tx-dark m0">
-            Transform your digital presence with Dexter Digital Technologies' strategic digital marketing services. We're here to help your 
+            Transform your digital presence with Dexter Digital Technologies&apos; strategic digital marketing services. We&apos;re here to help your 
               <span> business thrive online</span>
             </h3>
           </div>
