@@ -1,4 +1,3 @@
-
 import Seo from "../components/common/Seo";
 import DefaulHeader from "../components/header/DefaulHeader";
 import DefaultFooter from "../components/footer/DefaultFooter";
@@ -10,8 +9,8 @@ import Team3 from "../components/team/Team3";
 import Link from "next/link";
 import VideoBlock from "../components/about/VideoBlock";
 import Counter from "../components/about/Counter";
-import Aboutservice from "../components/home-page/home-11/AboutService"
-import AboutHero from "../components/home-page/home-11/AboutHero"
+import Aboutservice from "../components/home-page/home-11/AboutService";
+import AboutHero from "../components/home-page/home-11/AboutHero";
 const About = () => {
   const features = [
     { text: "Amazing communication." },
@@ -49,10 +48,10 @@ const About = () => {
             <div className="col-lg-9" data-aos="fade-right">
               <div className="title-style-five mb-65 md-mb-40">
                 <div className="sc-title-two fst-italic position-relative">
-                Dexter Digital Technologies:
+                  Dexter Digital Technologies:
                 </div>
                 <h2 className="main-title fw-500 tx-dark">
-                 Pioneering Digital Excellence for Over 8 Years
+                  Pioneering Digital Excellence for Over 8 Years
                 </h2>
               </div>
             </div>
@@ -62,10 +61,14 @@ const About = () => {
               <div className="ps-xxl-5" data-aos="fade-left">
                 <h6 className="mb-30">Our journey </h6>
                 <p className="text-lg tx-dark">
-                Our story began in [Year of Establishment], when a group of passionate tech enthusiasts came together with a shared vision  to empower businesses in the digital age. Since then, we have been on a relentless journey to turn that vision into reality. Over the years, we&apos;ve honed our skills, embraced emerging technologies, and cultivated a team of experts who excel in their respective fields.
-
+                  Our story began in [Year of Establishment], when a group of
+                  passionate tech enthusiasts came together with a shared vision
+                  to empower businesses in the digital age. Since then, we have
+                  been on a relentless journey to turn that vision into reality.
+                  Over the years, we&apos;ve honed our skills, embraced emerging
+                  technologies, and cultivated a team of experts who excel in
+                  their respective fields.
                 </p>
-               
               </div>
             </div>
           </div>
@@ -74,9 +77,13 @@ const About = () => {
               <div className="ps-xxl-5" data-aos="fade-left">
                 <h6 className="mb-30">Our Mission </h6>
                 <p className="text-lg tx-dark">
-                At Dexter Digital Technologies, our mission is clear: to help businesses, regardless of their size or industry, thrive in the digital landscape. We understand the unique challenges and opportunities that the digital era presents, and we are dedicated to providing our clients with the tools and strategies they need to succeed.
+                  At Dexter Digital Technologies, our mission is clear: to help
+                  businesses, regardless of their size or industry, thrive in
+                  the digital landscape. We understand the unique challenges and
+                  opportunities that the digital era presents, and we are
+                  dedicated to providing our clients with the tools and
+                  strategies they need to succeed.
                 </p>
-               
               </div>
             </div>
           </div>
@@ -85,14 +92,18 @@ const About = () => {
               <div className="ps-xxl-5" data-aos="fade-left">
                 <h6 className="mb-30">Our Diverse Clientele:</h6>
                 <p className="text-lg tx-dark">
-                Our journey has been marked by remarkable collaborations and achievements. We have had the privilege of working with a wide range of clients, from ambitious startups to globally recognized Fortune 500 companies. This diversity has enriched our experience and deepened our understanding of the intricacies of various industries.
+                  Our journey has been marked by remarkable collaborations and
+                  achievements. We have had the privilege of working with a wide
+                  range of clients, from ambitious startups to globally
+                  recognized Fortune 500 companies. This diversity has enriched
+                  our experience and deepened our understanding of the
+                  intricacies of various industries.
                 </p>
               </div>
             </div>
           </div>
         </div>
         {/* /.container */}
-
       </div>
       {/* /.fancy-feature-fiftyOne */}
       <div className="fancy-feature-four pt-150 lg-pt-150 pb-150">
@@ -103,10 +114,12 @@ const About = () => {
               // data-aos="fade-up"
             >
               <div className="title-style-three">
-                <h2 style={{fontSize:'46px'}} className="main-text fw-normal fs-46">
-                Why Choose Us{" "}
+                <h2
+                  style={{ fontSize: "46px" }}
+                  className="main-text fw-normal fs-46"
+                >
+                  Why Choose Us{" "}
                   <span className="d-inline-block position-relative">
-                  
                     <span
                       className="mark-bg"
                       style={{ backgroundColor: "#f0c09c" }}
@@ -115,7 +128,6 @@ const About = () => {
                 </h2>
               </div>
               {/* /.title-style-three */}
-
             </div>
           </div>
           {/* End .row */}
@@ -123,7 +135,7 @@ const About = () => {
           <div className="row gx-xxl-5">
             <Aboutservice />
           </div>
-<AboutHero/>
+          <AboutHero />
           {/* /.tab-content */}
         </div>
         {/* /.container */}

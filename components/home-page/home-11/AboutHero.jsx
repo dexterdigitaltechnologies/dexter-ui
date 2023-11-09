@@ -30,7 +30,7 @@ const CallToAction = () => {
                 startup with big dreams or a Fortune 500 giant, we have the
                 expertise to propel your business forward.
               </p>
-              <p>
+              <p className="fs-20 main-text fw-700" style={{fontStyle:'italic', color:'#595150'}}>
               Thank you for considering Dexter Digital Technologies as your partner in digital excellence. We look forward to the opportunity to work with you and help your business thrive in the digital age.
               </p>
             </div>
