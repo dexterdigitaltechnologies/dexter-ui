@@ -9,13 +9,8 @@ import {
 
 import { useRouter } from "next/router";
 
-
 const MainMenu = () => {
   const router = useRouter();
-
-
-  
-
   const isActive = (link) => {
     return router.pathname.replace('/[id]', '') === link.replace(/\/\d+$/, '');
   };
@@ -41,7 +36,7 @@ const MainMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link href="/" className="d-block">
-                <img src="/images/logo/logo_01.png" alt="" width={95} />
+                <img src="/images/dexter/logo.png" alt="" width={95} />
               </Link>
             </div>
           </li>
