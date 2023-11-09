@@ -5,26 +5,37 @@ const Services2 = () => {
     {
       icon: "/images/icon/icon_09.svg",
       title: "Software design & development",
+      link:"/services/software-development",
       delay: 100,
     },
     {
       icon: "/images/icon/icon_52.svg",
       title: "ERP implementation",
+      link:"/services/erp-implimentation",
       delay: 200,
     },
     {
       icon: "/images/icon/icon_53.svg",
       title: "Software Consulting",
+      link:"/services/consulting-strategy",
       delay: 100,
     },
     {
       icon: "/images/icon/icon_54.svg",
       title: "UI/UX Design",
+      link:"/services/ui-ux-design",
       delay: 200,
     },
     {
       icon: "/images/icon/icon_55.svg",
-      title: "SEO & Social Marketing",
+      title: "Digital & Social Marketing",
+      link:"/services/digital-marketing",
+      delay: 300,
+    },
+    {
+      icon: "/images/icon/icon_55.svg",
+      title: "Mobile App Development",
+      link:"/services/mobile-app-development",
       delay: 300,
     },
   
@@ -61,7 +72,7 @@ const Services2 = () => {
             </div>
             <h4 className="fw-500 mt-20 mb-50">{service.title}</h4>
             <Link
-              href="/pages-menu/service-details"
+              href={service.link}
               className="read-btn mt-auto tran3s"
             >
               <img

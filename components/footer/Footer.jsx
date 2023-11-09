@@ -77,7 +77,7 @@ const Footer = () => {
         <h5 className="footer-title txt-dark fw-500">Email</h5>
         <p className="text-dark opacity-75 mb-20">
           <a className="mailid" href="mailto:info@unifyfinance.com.au">
-            info@unifyfinance.com.au
+            info@dexterinc.com
           </a>
         </p>
 

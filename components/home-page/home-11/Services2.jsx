@@ -19,7 +19,12 @@ const Services2 = () => {
     },
     {
       icon: "/images/icon/icon_54.svg",
-      title: "SEO & Social marketing",
+      title: "Digital & Social marketing",
+      delay: 200,
+    },
+    {
+      icon: "/images/icon/icon_54.svg",
+      title: "Mobile App Development",
       delay: 200,
     },
     {

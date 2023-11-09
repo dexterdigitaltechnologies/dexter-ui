@@ -1,7 +1,5 @@
 import Link from "next/link";
-import {
-  services,
-} from "../../data/menu";
+import { services } from "../../data/menu";
 
 import { useRouter } from "next/router";
 
@@ -34,19 +32,15 @@ const MainMenu = () => {
           {/* End li */}
 
           <li className="nav-item  mega-dropdown-md active">
-            <a
-              className="nav-link"
-              href="/"
-              role="button"
-    
-            >
+            <a className="nav-link" href="/" role="button">
               Home
             </a>
-          
           </li>
-       
-      
-
+          <li className="nav-item">
+            <Link className="nav-link" href="/about" role="button">
+              About
+            </Link>
+          </li>
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
@@ -70,19 +64,12 @@ const MainMenu = () => {
           </li>
           {/* End li (portfolio) */}
 
-          <li className="nav-item">
-          
-               <Link className="nav-link" href="/about" role="button">
-               About
-            </Link>
-        
          
-          </li>
           {/* End li (blog) */}
 
           <li className="nav-item">
-            <Link className="nav-link" href="/contact" role="button">
-              Contact
+            <Link className="nav-link" href="https://medium.com/@dexterinc.seo" role="button" target="_blank">
+              Blog
             </Link>
           </li>
           {/* End li (contact) */}

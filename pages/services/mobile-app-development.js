@@ -3,7 +3,6 @@ import DefaulHeader from "../../components/header/DefaulHeader";
 import SoftwareHero from "../../components/services/mobileapp/softwarehero"
 import SoftwareServices from "../../components/services/mobileapp/softwareServices"
 import FinancialText from "../../components/services/mobileapp/HeadingText"
-import ContactForm from "../../components/contact/ContactForm";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 const mobileapp = () => {
   return (
