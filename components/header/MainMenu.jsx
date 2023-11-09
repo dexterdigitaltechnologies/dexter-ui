@@ -4,7 +4,6 @@ import {
   pagesItems,
   portfolioItems,
   blogItems,
-  services
 } from "../../data/menu";
 
 import { useRouter } from "next/router";
@@ -12,6 +11,9 @@ import { useRouter } from "next/router";
 
 const MainMenu = () => {
   const router = useRouter();
+
+
+  
 
   const isActive = (link) => {
     return router.pathname.replace('/[id]', '') === link.replace(/\/\d+$/, '');
@@ -44,49 +46,49 @@ const MainMenu = () => {
           </li>
           {/* End li */}
 
-          <li className="nav-item  mega-dropdown-md">
+          <li className="nav-item dropdown mega-dropdown-md">
             <a
-              className="nav-link active-menu"
-              href="/"
-              role="button"
-              data-bs-toggle=""
-              data-bs-auto-close="outside"
-              aria-expanded="false"
-              
-
-              // style={{color:'green'}}
-            >
-              Home
-            </a>
-          </li>
-          {/* End li (home mega menu) */}
-
-          <li className="nav-item  dropdown">
-            <a
-              className="nav-link dropdown-toggle"
+              // className="nav-link dropdown-toggle active-menu"
               href="#"
               role="button"
               data-bs-toggle="dropdown"
               data-bs-auto-close="outside"
               aria-expanded="false"
-            >
-              Services
-            </a>
-            <ul className="dropdown-menu" style={{minWidth:"270px"}}>
-              {services.map((item, index) => (
-                <li className="dropdown-submenu dropdown" key={index}>
-                  <Link href={item.link} className="dropdown-item">
-                    <span>{item.name}</span>
-                  </Link>
-                 
-                </li>
-              ))}
+              className={menuItems.some(menu=>menu.items.some(elm=>isActive(elm.link))) ? 'nav-link dropdown-toggle active-menu' : 'nav-link dropdown-toggle'}
 
-             
+              // style={{color:'green'}}
+            >
+              Home
+            </a>
+            <ul className="dropdown-menu">
+              <li>
+                <div className="row">
+                  {menuItems.map((menu, index) => (
+                    <div className="col-lg-4" key={index}>
+                      <div className="menu-column">
+                        <h6 className={ menu.items.some(elm=>isActive(elm.link)) ? "mega-menu-title active-menu" : 'mega-menu-title'}  >{menu.title}</h6>
+                        <ul className="style-none mega-dropdown-list">
+                          {menu.items.map((item, index) => (
+                            <li key={index}>
+                              <Link
+                                href={item.link}
+                                className={`dropdown-item ${
+                                  isActive(item.link) ? "active" : ""
+                                }`}
+                              >
+                                <span>{item.title}</span>
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </li>
             </ul>
           </li>
-        
-        
+          {/* End li (home mega menu) */}
 
           <li className="nav-item  dropdown">
             <a
