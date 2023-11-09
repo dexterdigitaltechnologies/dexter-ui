@@ -5,27 +5,27 @@ const BlockContact = () => {
     {
       icon: "/images/icon/icon_147.svg",
       title: "Our Address",
-      content: "1012 Pebda Parkway, Mirpur 2 Dhaka, Bangladesh",
+      content: "2 Fluture Court, Tarneit, Victoria 3029 Australia",
       delay: "100",
     },
     {
-      icon: "/images/icon/icon_148.svg",
+      icon: "/images/icon/tele.png",
       title: "Contact Info",
       content: "Open a chat or give us call at",
-      link: "tel:310.841.5500",
+      link: "tel:1300864393",
       delay: "200",
     },
     {
-      icon: "/images/icon/icon_149.svg",
-      title: "Live Support",
-      content: "live chat service",
-      link: "www.janolivechat.com",
+      icon: "/images/icon/icon_148.svg",
+      title: "Email",
+      content: "Email Info",
+      link: "info@dexterinc.com",
       delay: "300",
-      link: "www.janolivechat.com",
+      link: "info@dexterinc.com",
       delay: "300",
     },
   ];
-
+ 
   return (
     <>
       {addressBlocks.map((block, index) => (
@@ -61,3 +61,7 @@ const BlockContact = () => {
 };
 
 export default BlockContact;
+
+
+
+

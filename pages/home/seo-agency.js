@@ -13,7 +13,7 @@ import Blog from "../../components/home-page/home-11/Blog";
 import CallToActions from "../../components/home-page/home-11/CallToActions";
 import Social from "../../components/home-page/home-11/Social";
 import Footer from "../../components/home-page/home-11/Footer";
-
+import Servicesnew from "../../components/home-page/home-11/servicenew"
 const SeoAgency = () => {
   return (
     <>
@@ -124,76 +124,17 @@ const SeoAgency = () => {
         <div className="shapes shape-two rounded-circle" />
       </div>
 
-      {/* 
-			=============================================
-				Feature Section Nineteen
-			============================================== 
-			*/}
-      <div className="fancy-feature-nineteen position-relative pt-170 pb-160 lg-pt-100 lg-pb-80">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6" data-aos="fade-right">
-              <div className="title-style-one text-center text-lg-start">
-                <h2 className="main-title fw-normal tx-dark m0">
-                  Provide <span>Quality</span> Services.
-                </h2>
-              </div>
-              {/* /.title-style-one */}
-            </div>
-            {/* End .col-lg-6 */}
-
-            <div className="col-xl-5 col-lg-6 ms-auto" data-aos="fade-left">
-              <p className="text-lg text-center text-lg-start md-pt-30 m0 ps-xxl-4">
-                Jano provides alternative asset management solutions to a global
-                client base and manages a significant.
-              </p>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row gx-xxl-5 pt-60 lg-pt-20">
-            <Services />
-          </div>
-        </div>
-        {/* /.container */}
-
-        <div className="shapes shape-one rounded-circle" />
-        <div className="shapes shape-two rounded-circle" />
-        <div className="shapes shape-three rounded-circle" />
-      </div>
-      {/* /.fancy-feature-nineteen */}
-
-      {/* 
-			=============================================
-				Feature Section Twenty
-			============================================== 
-			*/}
-      <div className="fancy-feature-twenty mt-250 lg-mt-140">
-        <div className="container">
-          <FancyFeatures />
-        </div>
-        {/* /.container */}
-
-        <div className="wrapper mt-60 lg-mt-10">
-          <div className="container">
-            <div className="row justify-content-center">
-              <Counter />
-            </div>
-          </div>
-        </div>
-        {/* /.wrapper */}
-      </div>
-      {/* /.fancy-feature-twenty */}
 
       {/* 
 			=============================================
 				Feature Section Twenty One
 			============================================== 
 			*/}
+      
       <div className="fancy-feature-twentyOne position-relative mt-190 pt-130 pb-150 lg-mt-130 lg-pt-60 lg-pb-60">
         <div className="container">
           <div className="row">
-            <Services2 />
+            <Services />
           </div>
           {/* End .row */}
         </div>
@@ -212,15 +153,48 @@ const SeoAgency = () => {
           className="lazy-img shapes shape-five"
         />
       </div>
+      
       {/* /.fancy-feature-twentyOne */}
+      <div className="fancy-feature-four pt-150 lg-pt-150">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-xxl-7 col-md-8 m-auto text-center"
+              // data-aos="fade-up"
+            >
+              <div className="title-style-three">
+                <h2 style={{fontSize:'46px'}} className="main-text fw-normal fs-46">
+                Why Choose Us{" "}
+                  <span className="d-inline-block position-relative">
+                  
+                    <span
+                      className="mark-bg"
+                      style={{ backgroundColor: "#f0c09c" }}
+                    />
+                  </span>
+                </h2>
+              </div>
+              {/* /.title-style-three */}
 
- 
+            </div>
+          </div>
+          {/* End .row */}
+
+          <div className="row gx-xxl-5">
+            <Servicesnew />
+          </div>
+
+          {/* /.tab-content */}
+        </div>
+        {/* /.container */}
+      </div>
+
       {/* 
 			=============================================
 				Feature Section Twenty Two
 			============================================== 
 			*/}
-      <div className="fancy-feature-twentyTwo position-relative pt-170 pb-170 lg-pt-80 lg-pb-100">
+      <div className="fancy-feature-twentyTwo position-relative pt-170 pb-170 lg-pt-80 lg-pb-100 mt-100">
         <div className="fancy-short-banner-eight">
           <div className="container">
             <Contact />

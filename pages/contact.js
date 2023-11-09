@@ -29,17 +29,12 @@ const contact = () => {
                 <div className="sc-title-two fst-italic position-relative d-inline-block">
                   Contact info
                 </div>
-                <h2 className="main-title fw-500 tx-dark">Get in Touch.</h2>
+                <h2 className="main-title fw-500 tx-dark">Contact Us</h2>
               </div>
             </div>
           </div>
         </div>
         {/* /.container */}
-        <img
-          src="/images/shape/shape_172.svg"
-          alt="shape"
-          className="lazy-img shapes shape-two"
-        />
       </div>
 
       {/* 
@@ -69,7 +64,7 @@ const contact = () => {
           </div>
         </div>
         {/* End .container */}
-        <Map />
+      
       </div>
 
       {/* 
