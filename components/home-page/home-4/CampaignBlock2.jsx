@@ -9,12 +9,8 @@ const campaignBlocks = [
     imageUrl: "/images/media/img_36.jpg",
     iconUrl: "/images/icon/icon_49.svg",
     title: "Be a Volunteer",
-    subtitle: (
-      <>
-        Growing up in poverty, children face tough <br /> hunger and
-        malnutrition
-      </>
-    ),
+    subtitle:
+      "Growing up in poverty, children face tough hunger and malnutrition",
   },
   {
     imageUrl: "/images/media/img_37.jpg",
