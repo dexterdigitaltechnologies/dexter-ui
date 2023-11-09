@@ -86,19 +86,7 @@ const MainMenu = () => {
             </ul>
           </li>
         
-          <li className="nav-item  mega-dropdown-md">
-            <a
-              className="nav-link active-menu"
-              href="/pages-menu/about-us"
-              role="button"
-              data-bs-toggle=""
-              data-bs-auto-close="outside"
-              aria-expanded="false"
-              // style={{color:'green'}}
-            >
-              About Us
-            </a>
-          </li>
+        
 
           <li className="nav-item  dropdown">
             <a
