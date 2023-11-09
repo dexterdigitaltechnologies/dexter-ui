@@ -62,7 +62,7 @@ const About = () => {
               <div className="ps-xxl-5" data-aos="fade-left">
                 <h6 className="mb-30">Our journey </h6>
                 <p className="text-lg tx-dark">
-                Our story began in [Year of Establishment], when a group of passionate tech enthusiasts came together with a shared vision – to empower businesses in the digital age. Since then, we have been on a relentless journey to turn that vision into reality. Over the years, we've honed our skills, embraced emerging technologies, and cultivated a team of experts who excel in their respective fields.
+                Our story began in [Year of Establishment], when a group of passionate tech enthusiasts came together with a shared vision  to empower businesses in the digital age. Since then, we have been on a relentless journey to turn that vision into reality. Over the years, we&apos;ve honed our skills, embraced emerging technologies, and cultivated a team of experts who excel in their respective fields.
 
                 </p>
                

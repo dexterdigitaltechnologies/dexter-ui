@@ -26,7 +26,7 @@ const CallToAction = () => {
                 We invite you to join us on this journey, where we combine
                 innovation, experience, and a client-centric approach to drive
                 your success in the digital era. Your vision is our mission, and
-                we're committed to helping you achieve it. Whether you're a
+                we&apos;re committed to helping you achieve it. Whether you&apos;re a
                 startup with big dreams or a Fortune 500 giant, we have the
                 expertise to propel your business forward.
               </p>
