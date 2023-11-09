@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Dexter Digital Technologies Pty.ltd."
+          content="Dexter Digital Technologies Pty. Ltd."
         />
         <meta
           name="keywords"
