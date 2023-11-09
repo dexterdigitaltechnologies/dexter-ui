@@ -1,11 +1,11 @@
 import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
-import SoftwareHero from "../../components/services/softwareDevelopemnt/softwarehero"
-import SoftwareServices from "../../components/services/softwareDevelopemnt/softwareServices"
-import FinancialText from "../../components/services/softwareDevelopemnt/HeadingText"
+import SoftwareHero from "../../components/services/digitalmarketing/softwarehero"
+import SoftwareServices from "../../components/services/digitalmarketing/softwareServices"
+import FinancialText from "../../components/services/digitalmarketing/HeadingText"
 import ContactForm from "../../components/contact/ContactForm";
 import DefaultFooter from "../../components/footer/DefaultFooter";
-const softwaredevelopment = () => {
+const digitalmarketing = () => {
   return (
     <>
       <Seo pageTitle="Home Loan Service Details" />
@@ -68,4 +68,4 @@ const softwaredevelopment = () => {
   );
 };
 
-export default softwaredevelopment;
+export default digitalmarketing;

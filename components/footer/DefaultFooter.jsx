@@ -29,11 +29,7 @@ const DefaultFooter = () => {
       {/* /.bg-wrapper */}
       <CopyrightFooter2 />
       {/* /.bottom-footer */}
-      <img
-        src="/images/shape/shape_173.svg"
-        alt="shape"
-        className="lazy-img shapes shape-one"
-      />
+   
     </div>
   );
 };
