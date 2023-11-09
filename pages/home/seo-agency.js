@@ -219,7 +219,7 @@ const SeoAgency = () => {
 				Footer
 			=====================================================
 			*/}
-         <div className="footer-style-six theme-basic-footer position-relative">
+         <div className="footer-style-eleven theme-basic-footer position-relative">
         <div className="container">
           <div className="inner-wrapper">
             <div className="row justify-content-between">
@@ -234,26 +234,27 @@ const SeoAgency = () => {
 
               <Footer />
 
-              <div className="col-md-3 col-sm-6 mb-30">
-                <h5 className="footer-title tx-dark fw-500">Address</h5>
-                <p className="fs-17">
-                  2 Fluture Court, Tarneit, Victoria 3029 Australia
-                </p>
-                <a
-                  href="mailto:januinc@company.com"
-                  className="email tran3s fs-17"
-                >
-                  info@dexterinc.com
-                </a>
-                <br />
-                <a
-                  href="tel:+7576994478"
-                  className="mobile tran3s fs-20 mt-20 mb-30"
-                >
-                  1300 864 393
-                </a>
-               
-              </div>
+              <div className="col-xl-3 col-lg-4 col-md-5 mb-30">
+        <h5 className="footer-title txt-dark fw-500">Address</h5>
+        <p className="text-dark opacity-75 mb-20">
+          2 Fluture Court, Tarneit VIC 3029
+        </p>
+        <h5 className="footer-title txt-dark fw-500">Contact Info</h5>
+        <p className="text-dark opacity-75 mb-20">
+          <a className="telnumber newlink" href="tel: 1300864393">
+            {" "}
+            1300 864393
+          </a>
+        </p>
+        <h5 className="footer-title txt-dark fw-500">Email</h5>
+        <p className="text-dark opacity-75 mb-20">
+          <a className="mailid newlink" href="mailto:info@unifyfinance.com.au">
+            info@dexterinc.com
+          </a>
+        </p>
+
+      
+      </div>
               {/* End .col-md-3 */}
             </div>
             {/* End .row */}

@@ -69,14 +69,14 @@ const Footer = () => {
         </p>
         <h5 className="footer-title txt-dark fw-500">Contact Info</h5>
         <p className="text-dark opacity-75 mb-20">
-          <a className="telnumber" href="tel: 1300864393">
+          <a className="telnumber newlink" href="tel: 1300864393">
             {" "}
             1300 864393
           </a>
         </p>
         <h5 className="footer-title txt-dark fw-500">Email</h5>
         <p className="text-dark opacity-75 mb-20">
-          <a className="mailid" href="mailto:info@unifyfinance.com.au">
+          <a className="mailid newlink" href="mailto:info@unifyfinance.com.au">
             info@dexterinc.com
           </a>
         </p>
