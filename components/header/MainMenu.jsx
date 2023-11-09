@@ -52,7 +52,7 @@ const MainMenu = () => {
             >
               Services
             </a>
-            <ul className="dropdown-menu">
+            <ul className="dropdown-menu" style={{minWidth:"275px"}}>
               {services.map((item, index) => (
                 <li key={index}>
                   <Link href={item.link} className="dropdown-item">
