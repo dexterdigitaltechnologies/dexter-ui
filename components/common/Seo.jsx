@@ -5,7 +5,7 @@ const Seo = ({ pageTitle }) => (
     <Head>
       <title>
         {pageTitle &&
-          `${pageTitle} || Dexter Digital Technologies}`}
+          `${pageTitle} || Dexter Digital Technologies`}
       </title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
