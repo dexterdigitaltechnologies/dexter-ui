@@ -7,7 +7,7 @@ const Footer = () => {
       links: [
         { label: "Home", url: "/" },
         { label: "About us", url: "/pages-menu/about-us-v1" },
-        { label: "Privacy Policy", url: "/privacy-policy" },
+        // { label: "Privacy Policy", url: "/privacy-policy" },
         { label: "Contact", url: "/contact" },
       ],
       className: "col-lg-2 col-md-3 col-sm-6 mb-30",

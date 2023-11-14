@@ -9,7 +9,7 @@ const Footer = () => {
       items: [
         { label: "Home", url: "/" },
         { label: "About us", url: "/pages-menu/about-us-v1" },
-        { label: "Privacy Policy", url: "/privacy-policy" },
+        // { label: "Privacy Policy", url: "/privacy-policy" },
         { label: "Contact", url: "/contact" },
       ],
     },
