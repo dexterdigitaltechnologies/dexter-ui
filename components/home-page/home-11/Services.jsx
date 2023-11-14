@@ -85,6 +85,21 @@ const Services2 = () => {
           {/* /.card-style-ten */}
         </div>
       ))}
+           <div
+        className="col-xxl-2 col-xl-3 col-lg-3 col-sm-5 ms-auto d-flex align-items-center justify-content-center text-center text-sm-start mt-40"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <div className="block">
+          {/* <div className="fs-15 fw-500" style={{ color: "#FF7228" }}>
+            Confusion?
+          </div> */}
+          {/* <h4 className="fw-normal">Send message for info.</h4> */}
+          <Link href="/contact" className="btn-eleven fs-15 fw-500 tran3s">
+           Get In Touch
+          </Link>
+        </div>
+      </div>
 
    
       {/* End .col-xxl-2 */}
