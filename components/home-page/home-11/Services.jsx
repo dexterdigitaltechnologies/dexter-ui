@@ -26,12 +26,12 @@ const Services2 = () => {
       link:"/services/ui-ux-design",
       delay: 200,
     },
-    {
-      icon: "/images/icon/icon_55.svg",
-      title: "Digital & Social Marketing",
-      link:"/services/digital-marketing",
-      delay: 300,
-    },
+    // {
+    //   icon: "/images/icon/icon_55.svg",
+    //   title: "Digital & Social Marketing",
+    //   link:"/services/digital-marketing",
+    //   delay: 300,
+    // },
     {
       icon: "/images/icon/icon_55.svg",
       title: "Mobile App Development",

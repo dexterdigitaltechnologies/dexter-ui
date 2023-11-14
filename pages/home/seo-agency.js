@@ -100,7 +100,7 @@ const SeoAgency = () => {
                   the past few years, We have established ourselves as a
                   reliable partner for businesses seeking innovative software
                   solutions to solve their business challenges. Our services
-                  include custom software development, digital marketing,
+                  include custom software development,
                   consultancy services and technical architecture design
                   services.
                 </p>
