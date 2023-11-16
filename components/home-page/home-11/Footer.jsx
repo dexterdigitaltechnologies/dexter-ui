@@ -16,7 +16,6 @@ const Footer = () => {
       title: "Services",
       links: [
         { label: "Software Development", url: "../services/software-development" },
-        { label: "Digital Marketing", url: "../services/digital-marketing" },
         { label: "Web Design & Development", url: "../services/web-design-development" },
         { label: "UI/UX Design  ", url: "../services/ui-ux-design" },
         { label: "Consulting and Strategy", url: "../services/consulting-strategy" },
